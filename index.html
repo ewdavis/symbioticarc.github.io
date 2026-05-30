@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Symbiotic Arc</title>
+  <meta name="description" content="Symbiotic Arc advances the science and architecture of human-AI teaming.">
+  <link rel="icon" type="image/png" href="ArcLogo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --blue: #1B3FA0;
+      --gold: #E8A817;
+      --orange: #E2681C;
+      --blue-light: #2A4FB8;
+      --text: #2C2C2C;
+      --text-light: #5A5A5A;
+      --bg: #FAFAFA;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .container {
+      max-width: 640px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .logo {
+      width: 250px;
+      height: 250px;
+      margin-bottom: -1rem;
+    }
+
+    .company-name {
+      font-size: 2.4rem;
+      font-weight: 500;
+      color: var(--orange);
+      letter-spacing: -0.02em;
+      margin-bottom: 0.25rem;
+    }
+
+    .legal-name {
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: var(--blue);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 2.5rem;
+    }
+
+    .divider {
+      width: 500px;
+      height: 2px;
+      background: var(--gold);
+      margin: 0 auto 2.5rem;
+    }
+
+    .description {
+      font-size: 1.05rem;
+      font-weight: 300;
+      line-height: 1.7;
+      color: var(--text);
+      margin-bottom: 3rem;
+    }
+
+    .founder {
+      margin-bottom: 2.5rem;
+    }
+
+    .founder-name {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .founder-title {
+      font-size: 0.85rem;
+      font-weight: 300;
+      color: var(--text-light);
+      margin-top: 0.2rem;
+    }
+
+    .contact a {
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: var(--blue);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .contact a:hover {
+      border-bottom-color: var(--blue);
+    }
+
+    @media (max-width: 480px) {
+      .company-name {
+        font-size: 1.8rem;
+      }
+
+      .logo {
+        width: 150px;
+        height: 150px;
+      }
+
+      .description {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="ArcLogo.png" alt="Symbiotic Arc" class="logo">
+    <div class="company-name">Symbiotic Arc</div>
+    <div class="legal-name">Symbiotic Architectures LLC</div>
+    <div class="divider"></div>
+    <p class="description">
+      Advancing the science and architecture of human-AI teaming. We work at the frontier of autonomous systems design where trust between humans and machines is built through real-time mutual adaptation, not pre-trained assumptions. We partner with organizations navigating the hardest problems in AI architecture, autonomy, and human-machine collaboration.
+    </p>
+    <div class="founder">
+      <div class="founder-name">Eric W. Davis, Ph.D.</div>
+      <div class="founder-title">Founder and Principal</div>
+    </div>
+    <div class="contact">
+      <a href="mailto:eric@symbioticarc.com">eric@symbioticarc.com</a>
+    </div>
+  </div>
+</body>
+</html>
